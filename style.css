@@ -1,53 +1,61 @@
-body,
-html {
-  width: 100%;
-  height: 100%;
-  font-family: 'Montserrat', sans-serif;
-  background: url(header.jpg) no-repeat center center fixed; 
+.btn-primary{
+	background-color: red;
+}
+
+.btn{
+	border-radius: 10px;
+	padding: 0.5rem 1rem;
+	border-color: red;
+	position: relative;
+	font-style: italic;
+	top: 200px;
+	left: 40px;
+}
+
+.btn:hover{
+	border-width: 0.3em;
+	border-color: red;
+	background-color
+}
+body,html{
+
+	 height: 100% width: 100%;
+	       font-family: 'Aboreto', cursive;
+	       font-style: italic;
+	       background: url(lap.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-h1{font-size: 2rem;
-   color:#FFF;
-  }
 
-section{margin-left: 40px;}
+p{color: white;
+font-family: 'Aboreto', cursive;
+font-size:2rem;}
 
-header{margin-left: 60px;position: relative;
-left:-30px;bottom: -20px;}
-
-.hr{margin-bottom: 200px;}
-
-
-.btn{font-weight: 700;
-border-radius:400px;
-padding:0.7rem 1rem;
-position: relative;
-top: -5px;
+.p1{color: white;
+	font-family: 'Aboreto', cursive;
+	font-size:2em;
+	position: relative;
+	top: 70px;
+	
 }
 
-.btn-primary{
-  background-color: red;
-  border-color: red;
+.p2{
+	position: relative;
+	font-family: 'Aboreto', cursive;
+	font-size: 1.5rem;
+	top: 370px;
+	left: 30px;
+	
 }
 
-.btn-primary:hover{
-background-color:red;
-border-color:red;
-border-width:3px;
+.btn3{
+	background-color: red;
+	border-color: red;
+	color: white;
+	border-radius: 10px;
+	font-style: italic;
+	padding: 4px 8px;
 }
- 
- hr{background-color: red;/*border-color: red;*/
-  border-width: 2px;
-  max-width:70px;
-position: relative; 
-top: -12px;}
-
-.container{display:flex;
-height: 100%;
-align-items: center;}
-
-.buffer{height: 10rem;}
